@@ -1,7 +1,6 @@
-const element = document.getElementById("main");
-element.remove();
+const main = document.querySelector('#main')
+main.remove();
 
-const newHeader = document.createElement('h1');
+const newHeader = document.createElement('h1')
 newHeader.id = 'victory'
-
-newHeader.textContent = "Matt is the champion"
+newHeader.innerHTML = 'MATT QUINN is the champion'
